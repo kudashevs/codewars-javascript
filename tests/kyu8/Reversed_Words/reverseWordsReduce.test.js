@@ -1,5 +1,5 @@
 const Test = require('@codewars/test-compat');
-const reverseWords = require('codewars/katas/kyu8/Reversed_Words/reverseWords-reverse');
+const reverseWords = require('codewars/katas/kyu8/Reversed_Words/reverseWordsReduce');
 
 describe('reverseWords', function () {
   it('should work for some examples', function () {
