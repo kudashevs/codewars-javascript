@@ -6,7 +6,7 @@
   "author.email": "kudashevs@gmail.com",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest ./tests"
   },
   "exports": {
     ".katas": "./katas/"
