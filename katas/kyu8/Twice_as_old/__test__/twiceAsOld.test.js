@@ -1,5 +1,5 @@
 const Test = require('@codewars/test-compat');
-const twiceAsOld = require('./../twiceAsOld');
+const twiceAsOld = require('codewars/katas/kyu8/Twice_as_old/twiceAsOld');
 
 describe('Sample tests', function () {
   it("Testing for dad's age: 36 and son's age: 7", function () {

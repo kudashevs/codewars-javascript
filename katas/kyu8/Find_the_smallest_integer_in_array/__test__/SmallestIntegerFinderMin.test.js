@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
-const SmallestIntegerFinderMin = require('./../SmallestIntegerFinderMin');
+const SmallestIntegerFinderMin = require('codewars/katas/kyu8/Find_the_smallest_integer_in_array/SmallestIntegerFinderMin');
 
 describe('Smallest Integer Tests', () => {
   let sif = new SmallestIntegerFinderMin();
