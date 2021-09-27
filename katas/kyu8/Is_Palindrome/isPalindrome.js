@@ -1,9 +1,5 @@
 function isPalindrome(x) {
-  if (x.length <= 1) {
-    return true;
-  }
-
-  const chars = x.toLowerCase().split('');
+  const chars = x.toLowerCase();
   let firstIndex = 0;
   let lastIndex = chars.length - 1;
 
