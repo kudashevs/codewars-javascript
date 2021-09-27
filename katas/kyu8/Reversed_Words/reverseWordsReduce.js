@@ -1,7 +1,7 @@
 // prettier-ignore
 function reverseWords(str) {
   return str.split(' ').reduce((acc, item) => {
-      return (acc = item + ' ' + acc);
+      return item + ' ' + acc;
   }, '').trim();
 }
 
