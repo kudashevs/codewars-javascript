@@ -1,10 +1,10 @@
 const chai = require('chai');
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
-const SmallestIntegerFinderMin = require('codewars/katas/kyu8/Find_the_smallest_integer_in_array/SmallestIntegerFinderMin');
+const SmallestIntegerFinderSort = require('codewars/katas/kyu8/find_the_smallest_integer_in_array/SmallestIntegerFinderSort');
 
 describe('Smallest Integer Tests', () => {
-  let sif = new SmallestIntegerFinderMin();
+  let sif = new SmallestIntegerFinderSort();
   it('Fixed Tests', () => {
     assert.strictEqual(sif.findSmallestInt([78, 56, 232, 12, 8]), 8, 'Should return the smallest int 8');
     assert.strictEqual(sif.findSmallestInt([78, 56, 232, 12, 18]), 12, 'Should return the smallest int 12');

@@ -1,5 +1,5 @@
 const {assert} = require('chai');
-const isPalindrome = require('codewars/katas/kyu8/Is_palindrome/isPalindromeLoop');
+const isPalindrome = require('codewars/katas/kyu8/is_palindrome/isPalindromeLoop');
 
 describe('Fixed tests', function () {
   it("Testing for 'a'", () => assert.strictEqual(isPalindrome('a'), true));

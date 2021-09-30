@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
-const removeChar = require('codewars/katas/kyu8/Remove_first_last_character/removeChar');
+const removeChar = require('codewars/katas/kyu8/remove_first_last_character/removeChar');
 
 describe('Tests', () => {
   it('Fixed Tests', () => {
