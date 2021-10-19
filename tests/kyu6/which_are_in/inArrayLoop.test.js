@@ -1,5 +1,5 @@
 const Test = require('@codewars/test-compat');
-const inArray = require('codewars/katas/kyu6/which_are_in/inArray');
+const inArray = require('codewars/katas/kyu6/which_are_in/inArrayLoop');
 
 describe('Tests', () => {
   it('test', () => {

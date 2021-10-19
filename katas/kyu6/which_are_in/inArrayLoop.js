@@ -1,4 +1,4 @@
-function inArray(array1, array2) {
+function inArrayLoop(array1, array2) {
   return array1
     .filter((needle) => {
       for (let hay of array2) {
@@ -11,4 +11,4 @@ function inArray(array1, array2) {
     .sort();
 }
 
-module.exports = inArray;
+module.exports = inArrayLoop;
